@@ -22,4 +22,10 @@ export const styles = StyleSheet.create({
     marginTop: 12,
     marginBottom: 38,
   },
+  ingredient: {
+    flexWrap: "wrap",
+    flexDirection: "row",
+    paddingBottom: 200,
+    gap: 12,
+  },
 });
