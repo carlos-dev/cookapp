@@ -12,8 +12,10 @@ type IngredientsProps = {
 export function Ingredients({ ingredients }: IngredientsProps) {
   return (
     <ScrollView
-      contentContainerStyle={styles.container}
-      showsVerticalScrollIndicator={false}
+      horizontal
+      style={styles.container}
+      contentContainerStyle={styles.ingredientsContent}
+      showsHorizontalScrollIndicator={false}
     >
       {ingredients.map((item) => (
         <Ingredient
